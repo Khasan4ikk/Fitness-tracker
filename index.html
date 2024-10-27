@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness tracker</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+      integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Permanent+Marker&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Permanent+Marker&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Permanent+Marker&display=swap");
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="nav_menu">
+          <div class="nav_logotip">
+            <img src="./img/header-nav/logotip.svg" alt="logotip" />
+          </div>
+          <div class="nav_link">
+            <div class="nav-icons">
+              <img src="./img/header-nav/facebook.svg" alt="facebook_icons" />
+              <img src="./img/header-nav/Linkedin.svg" alt="Linkedin_icons" />
+              <img src="./img/header-nav/google.svg" alt="google_icons" />
+            </div>
+
+            <div class="burger-container" onclick="toggleMenu()">
+              <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+              </div>
+            </div>
+
+            <nav class="nav-btn">
+              <ul class="nav-list">
+                <a href="#service" class="nav-link-color"
+                  ><li>About text</li></a
+                >
+                <a href="#product" class="nav-link-color"
+                  ><li>Start training</li></a
+                >
+                <a href="#technology" class="nav-link-color"
+                  ><li>Stories of our users</li></a
+                >
+                <a href="#about" class="nav-link-color"
+                  ><li>Choose your tariff plan</li></a
+                >
+                <a href="#client" class="nav-link-color"
+                  ><li>Download now!</li></a
+                >
+                <a href="#client" class="nav-link-color"><li>Partner</li></a>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!-- HEAD CONTENT -->
+        <div class="header-content">
+          <div class="text-content">
+            <h1 class="heading_text">The best fitness tracker!</h1>
+            <p class="heading_paragraph">
+              Nisi ullamco tempor tempor nulla labore ad labore sit eu duis. Ut
+              et esse cupidatat consequat ea exercitation.
+            </p>
+            <div class="down_btn">
+              <a href="#!" class="appstore_btn">
+                <img
+                  src="./img/header-content/appIconBlack.svg"
+                  alt="appIcon"
+                />
+                <p class="appText">Download</p>
+              </a>
+
+              <a href="#!" class="playmarker_btn">
+                <img
+                  src="./img/header-content/PlaymarketIconBlack.svg"
+                  alt="PlaymarketIcon"
+                />
+                <p class="appText">Download</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="img-content">
+            <img
+              src="./img/header-content/Illustration-iphone.png"
+              alt="Illustration-iphone"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="about">
+        <h2>About text</h2>
+        <p>
+          Nisi ullamco tempor tempor nulla labore ad labore sit eu duis. Ut et
+          esse cupidatat consequat.
+        </p>
+      </section>
+
+      <section class="carousel">
+        <div class="owl-carousel owl-theme">
+          <div><img src="./img/carousel_card/card_1.svg" alt="" /></div>
+          <div><img src="./img/carousel_card/card_2.svg" alt="" /></div>
+          <div><img src="./img/carousel_card/cards3.svg" alt="" /></div>
+          <div><img src="./img/carousel_card/card_1.svg" alt="" /></div>
+          <div><img src="./img/carousel_card/card_2.svg" alt="" /></div>
+          <div><img src="./img/carousel_card/cards3.svg" alt="" /></div>
+        </div>
+      </section>
+
+      <section class="start" data-aos="fade-up">
+        >
+        <div class="container">
+          <div class="start_wrapper">
+            <div class="start_text_content">
+              <h3>Start training already on your watch</h3>
+              <p>
+                Nisi ullamco tempor tempor nulla labore ad labore sit eu duis.
+                Ut et esse cupidatat consequat.Nisi ullamco tempor tempor nulla
+                labore ad labore sit eu duis. Ut et esse cupidatat consequat.
+              </p>
+              <div class="btn_email">
+                <input type="email" placeholder="Email" class="email-input" />
+                <button class="submit-button">
+                  <span class="lets_text">Let’s GO!</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="start_img_content">
+              <img src="./img/section-start/clockImg.png" alt="clockImg" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stories" data-aos="fade-up">
+        <div class="container">
+          <div class="stories_wrapper">
+            <div class="stories_heading">
+              <h4>Stories of our users</h4>
+            </div>
+            <div class="card_wrapper">
+              <div class="card">
+                <img src="./img/section_stories/1.svg" alt="section_stories" />
+                <h5>Stories of our users</h5>
+                <p class="card_paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <p class="card_data">17.10.20</p>
+              </div>
+
+              <div class="card">
+                <img src="./img/section_stories/2.svg" alt="section_stories" />
+                <h5>Stories of our users</h5>
+                <p class="card_paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <p class="card_data">17.10.20</p>
+              </div>
+
+              <div class="card">
+                <img src="./img/section_stories/1.svg" alt="section_stories" />
+                <h5>Stories of our users</h5>
+                <p class="card_paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <p class="card_data">17.10.20</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="choose" data-aos="fade-up">
+        <div class="container">
+          <div class="choose_wrapper">
+            <div class="choose_text_content">
+              <p>We have selected the best payment solutions for you.</p>
+              <h6>Choose your tariff plan</h6>
+              <button class="centered-button">
+                <span class="button-text btnOne">Month</span>
+                <span class="button-text">Years</span>
+              </button>
+            </div>
+
+            <div class="card_row">
+              <div class="card_choose_one">
+                <p class="up_paragraph">Free Plan</p>
+                <h6 class="heading_choose">$0 mounth</h6>
+                <p class="email_paragraph">5 Email</p>
+                <p class="free_share">Free Share</p>
+                <p class="clients">200 Clients</p>
+                <p class="chat_support">Chat support</p>
+                <button><p>Get started</p></button>
+              </div>
+
+              <div class="card_choose_two">
+                <p class="up_paragraph">Basic</p>
+                <h6 class="heading_choose">$5 mounth</h6>
+                <p class="email_paragraph">200 Email</p>
+                <p class="free_share">Free Share</p>
+                <p class="clients">500 Clients</p>
+                <p class="chat_support">Chat + Email support</p>
+                <button><p>Get started</p></button>
+              </div>
+
+              <div class="card_choose_thee">
+                <p class="up_paragraph">Advenced</p>
+                <h6 class="heading_choose">$9 mounth</h6>
+                <p class="email_paragraph">2000 Email</p>
+                <p class="free_share">Free Share</p>
+                <p class="clients">1000 Clients</p>
+                <p class="chat_support">Chat + Email support</p>
+                <button><p>Get started</p></button>
+              </div>
+
+              <div class="card_choose_four">
+                <p class="up_paragraph">Most Advanced</p>
+                <h6 class="heading_choose">$12 mounth</h6>
+                <p class="email_paragraph">Unlim Email</p>
+                <p class="free_share">Free Share</p>
+                <p class="clients">10 000 Clients</p>
+                <p class="chat_support">Personal Manager</p>
+                <button><p>Get started</p></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="download" data-aos="fade-up">
+        <div class="container">
+          <div class="download_wrapper" style="display: flex">
+            <div class="download_text_content">
+              <h6>Download now and get a bonus!</h6>
+              <p>
+                Nisi ullamco tempor tempor nulla labore ad labore sit eu duis.
+                Ut et esse cupidatat consequat ea exercitation.
+              </p>
+              <div class="btns_download">
+                <a class="app_btn" href="#!">
+                  <img
+                    src="./img/section_download/appWhite.svg"
+                    alt="Иконка приложения"
+                  />
+                  <h7>Download</h7>
+                </a>
+
+                <a class="app_btn" href="#!">
+                  <img
+                    src="./img/section_download/playWhite.svg"
+                    alt="Иконка приложения"
+                  />
+                  <h7>Download</h7>
+                </a>
+              </div>
+            </div>
+            <div class="download_input_content">
+              <h2>Sign In</h2>
+              <div class="input-fields">
+                <input
+                  type="text"
+                  placeholder="Your name"
+                  class="input-field"
+                />
+                <input type="email" placeholder="Email" class="input-field" />
+                <input
+                  type="text"
+                  placeholder="Company Name"
+                  class="input-field"
+                />
+                <input
+                  type="text"
+                  placeholder="Job Title"
+                  class="input-field"
+                />
+              </div>
+              <div class="checkbox-container">
+                <label for="checkbox" class="checkbox-label">
+                  <input type="checkbox" id="checkbox" class="checkbox-input" />
+                  <span class="checkbox_text">Lorem ipsum dolor sit amet.</span>
+                </label>
+              </div>
+              <button class="sign-in-button">Sign In</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" data-aos="fade-up">
+      <div class="container">
+        <div class="footer_wrapper">
+          <img
+            class="footer_logo"
+            src="./img/footer/logotip!.svg"
+            alt="logotip"
+          />
+          <nav class="nav-menu">
+            <a href="#!"><li>About</li></a>
+            <a href="#!"><li>Pricing</li></a>
+            <a href="#!"><li>Manual</li></a>
+          </nav>
+          <div class="footer_download">
+            <a class="app_btn_two" href="#!">
+              <img src="./img/section_download/appWhite.svg" alt="appWhite" />
+              <h7>Download</h7>
+            </a>
+
+            <a class="app_btn_two" href="#!">
+              <img src="./img/section_download/playWhite.svg" alt="playWhite" />
+              <h7>Download</h7>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
